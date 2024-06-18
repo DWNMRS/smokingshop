@@ -1,20 +1,37 @@
 <template>
   <div class="results">
-    <div class="results-filter">
-      <div class="results-filter__buttons d-flex">
-        <button type="button" @click="filterProducts('all')">Все товары</button>
-        <button type="button" @click="filterProducts('own')">Наши товары</button>
-        <button type="button" @click="filterProducts('new')">Новинки</button>
-        <button type="button" @click="filterProducts('discount')">Скидки</button>
-      </div>
-    </div>
-    <div class="results-goods">
-      <ProductCard v-for="product in filteredProducts" :key="product.id" :product="product" />
+    <HomeCatalogResultsFilter :filters="filters" :isSimple="simpleMode" :currentFilter="currentFilter" @getModeValue="setMode"
+      @getFilter="setFilter" />
+    <div :class="['results-goods', { 'results-goods--simple': simpleMode == true }]">
+      <ProductCard v-for="product in filteredProducts" :isSimple="simpleMode" :key="product.id" :product="product" />
     </div>
   </div>
 </template>
 
 <script lang="ts" setup>
+const filters = ref([
+  {
+    value: 'own',
+    title: 'Наши товары',
+    selected: true
+  },
+  {
+    value: 'all',
+    title: 'Все товары',
+    selected: false
+  },
+  {
+    value: 'new',
+    title: 'Новинки',
+    selected: false
+  },
+  {
+    value: 'discount',
+    title: 'Скидки',
+    selected: false
+  },
+])
+
 const products = ref([
   {
     id: 1,
@@ -94,6 +111,7 @@ const products = ref([
 ]);
 
 const currentFilter = ref('all');
+const simpleMode = ref<boolean>(false)
 
 const filteredProducts = computed(() => {
   switch (currentFilter.value) {
@@ -107,26 +125,30 @@ const filteredProducts = computed(() => {
       return products.value;
   }
 });
-
-function filterProducts(filter: string) {
+function setFilter(filter: string) {
   currentFilter.value = filter;
+}
+
+function setMode(value: boolean): void {
+  simpleMode.value = value
 }
 </script>
 
 <style lang="scss" scoped>
 .results {
   height: 100%;
-
-  &-filter {
-    margin-bottom: 31px;
-    gap: 25px;
-  }
+  width: 100%;
 
   &-goods {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 33px;
+
+    &--simple {
+      flex-direction: column;
+      gap: 13px;
+    }
   }
 }
 </style>

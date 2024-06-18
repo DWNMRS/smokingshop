@@ -10,6 +10,7 @@
 
 .side-bar {
   width: 100%;
+  min-width: 310px;
   max-width: 310px;
 }
 

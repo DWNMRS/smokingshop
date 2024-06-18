@@ -20,9 +20,8 @@
       <span class="categories__title">Цена</span>
       <div class="categories-price__slider">
         <Slider :min="minValue" :max="maxValue" v-model="value" range />
-        <span class="categories-price__slider-info">{{ value[0] }}
-          <IconRub /> - {{ value[1] }}
-          <IconRub />
+        <span class="categories-price__slider-info">{{ value[0] }}₽ - {{ value[1] }}₽
+
         </span>
       </div>
       <div class="categories-price__buttons">
@@ -136,6 +135,7 @@ const toggleOpen = (index: number) => {
       }
 
       &-info {
+        font-family: 'Inter var',sans-serif;
         display: flex;
         align-items: center;
         color: $primary;
