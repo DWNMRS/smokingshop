@@ -4,5 +4,6 @@
     <HomeCatalog />
     <HomeOffers />
     <HomeBlog />
+    <HomeFindProduct/>
   </div>
 </template>
