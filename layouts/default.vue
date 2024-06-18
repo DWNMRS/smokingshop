@@ -1,12 +1,11 @@
 <template>
-  <div>
-    <TheHeader />
-    <main>
+  <main>
+    <TheTopBar />
+    <div class="container">
+      <TheHeader />
       <NuxtPage />
-    </main>
-    <TheFooter />
-  </div>
+      <TheFooter />
+    </div>
+  </main>
 </template>
 
-<script setup>
-</script>

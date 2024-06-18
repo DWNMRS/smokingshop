@@ -1,0 +1,83 @@
+//Сюда внести шрифты
+$path: "/fonts"; //Шрифты лежат в public/fonts
+
+@font-face {
+  font-family: "Stolz";
+  src: url(assets/fonts/Stolzl/Stolzl-Thin.woff) format("woff2"),
+    url(assets/fonts/Stolzl/Stolzl-Thin.woff) format("woff"),
+    url(assets/fonts/Stolzl/Stolzl-Thin.ttf) format("truetype");
+  font-weight: 250;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url(assets/fonts/Stolzl/Stolzl-Light.woff2) format("woff2"),
+    url(assets/fonts/Stolzl/Stolzl-Light.woff) format("woff"),
+    url(assets/fonts/Stolzl/Stolzl-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url(assets/fonts/Stolzl/Stolzl-Regular.woff2) format("woff2"),
+    url(assets/fonts/Stolzl/Stolzl-Regular.woff) format("woff"),
+    url(assets/fonts/Stolzl/Stolzl-Regular.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url(assets/fonts/Stolzl/Stolzl-Book.woff2) format("woff2"),
+    url(assets/fonts/Stolzl/Stolzl-Book.woff) format("woff"),
+    url(assets/fonts/Stolzl/Stolzl-Book.ttf) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url(assets/fonts/Stolzl/Stolzl-Medium.woff2) format("woff2"),
+    url(assets/fonts/Stolzl/Stolzl-Medium.woff) format("woff"),
+    url(assets/fonts/Stolzl/Stolzl-Medium.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Stolzl";
+  src: url(assets/fonts/Stolzl/Stolzl-Bold.woff2) format("woff2"),
+    url(assets/fonts/Stolzl/Stolzl-Bold.woff) format("woff"),
+    url(assets/fonts/Stolzl/Stolzl-Bold.ttf) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins/Poppins-Light.woff2) format("woff2"),
+    url(assets/fonts/Poppins/Poppins-Light.woff) format("woff"),
+    url(assets/fonts/Poppins/Poppins-Light.ttf) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins/Poppins-ExtraLight.woff2) format("woff2"),
+    url(assets/fonts/Poppins/Poppins-ExtraLight.woff) format("woff"),
+    url(assets/fonts/Poppins/Poppins-ExtraLight.ttf) format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url(assets/fonts/Poppins/Poppins-Thin.woff2) format("woff2"),
+    url(assets/fonts/Poppins/Poppins-Thin.woff) format("woff"),
+    url(assets/fonts/Poppins/Poppins-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
