@@ -95,6 +95,7 @@ const decrement = () => {
   display: flex;
   flex-direction: column;
   position: relative;
+  margin-bottom: 14px;
 
   &__badge {
     position: absolute;
@@ -238,6 +239,7 @@ const decrement = () => {
     transition: 0.2s;
     border-top: 1px solid transparent;
     background: $light;
+    margin-bottom: 0;
 
     .card__body {
       width: 100%;

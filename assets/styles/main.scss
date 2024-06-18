@@ -11,6 +11,10 @@ body,button {
   color: $text;
 }
 
+img {
+  user-select: none;
+}
+
 .container {
   width: 100%;
   height: 100%;

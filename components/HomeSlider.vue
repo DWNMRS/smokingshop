@@ -63,7 +63,7 @@ const slides = [
 
 .slide {
   position: relative;
-  padding: 70px 0 88px 44px;
+  padding: 70px 0 89px 43px;
 
   &__text {
     max-width: 577px;
@@ -91,8 +91,8 @@ const slides = [
 
   &__img {
     position: absolute;
-    top: 36px;
-    right: 2px;
+    top: 35px;
+    right: 0px;
     height: 100%;
     transform: scale(1.31);
     z-index: 1;

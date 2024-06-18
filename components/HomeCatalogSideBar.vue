@@ -18,7 +18,7 @@
   width: 100%;
   height: 599px;
   overflow: hidden;
-  margin-top: 19px;
+  margin-top: 21px;
   background: $black;
 }
 </style>
