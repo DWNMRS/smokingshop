@@ -3,5 +3,6 @@
     <HomeSlider />
     <HomeCatalog />
     <HomeOffers />
+    <HomeBlog />
   </div>
 </template>

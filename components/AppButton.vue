@@ -56,7 +56,7 @@ const buttonClasses = computed(() => {
     color: $white;
 
     &:hover {
-      color: $dark;
+      background-color: $dark;
       cursor: pointer;
     }
   }

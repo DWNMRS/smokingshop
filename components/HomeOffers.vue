@@ -72,6 +72,7 @@ const offers = [
   }
 
   &__title {
+    max-width: 271px;
     font-weight: 500;
     font-size: 18px;
     line-height: 16px;
