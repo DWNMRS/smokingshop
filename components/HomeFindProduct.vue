@@ -3,11 +3,12 @@
     <h3 class="find-product__title">Не нашли нужный товар?</h3>
     <div class="find-product__form">
       <input class="find-product__input" type="email" placeholder="впишите ваш email ..." />
-      <AppButton class="find-product__button" type="submit"  unstyled>Ок</AppButton>
+      <AppButton class="find-product__button" type="submit" unstyled>Ок</AppButton>
     </div>
-    <p class="find-product__description">Мы сможем подобрать нужный вам товар, а так же помочь со всеми вопросами, просто заполните ваш емайл и мы вам
+    <p class="find-product__description">Мы сможем подобрать нужный вам товар, а так же помочь со всеми вопросами,
+      просто заполните ваш емайл и мы вам
       ответим</p>
-      <IconFind class="find-product__icon"/>
+    <IconFind class="find-product__icon" />
   </div>
 </template>
 
@@ -56,9 +57,13 @@
     border-radius: 0 6px 6px 0;
     background-color: $secondary;
     padding: 12px 35px 12px 26px;
+
+    &:hover {
+      background: #f5ac53;
+    }
   }
 
-  &__icon{
+  &__icon {
     position: absolute;
     right: -34px;
     bottom: -43px;

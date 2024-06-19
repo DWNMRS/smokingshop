@@ -130,7 +130,7 @@ function setFilter(filter: string) {
 }
 
 function setMode(value: boolean): void {
-  simpleMode.value = value
+  simpleMode.value = !value
 }
 </script>
 

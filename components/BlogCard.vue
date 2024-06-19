@@ -29,7 +29,7 @@ defineProps({
 
   &__img {
     height: 195px;
-    background-color: #000;
+    background-color: $black;
   }
 
   &__body {

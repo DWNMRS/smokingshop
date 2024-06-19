@@ -5,7 +5,7 @@
       <TheHeader />
       <NuxtPage />
     </div>
-    <TheBotomBar/>
+    <TheBottomBar />
     <div class="container">
       <TheFooter />
     </div>

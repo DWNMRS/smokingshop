@@ -108,7 +108,6 @@ function toggleMode() {
       align-items: center;
       justify-content: center;
       color: $shadow;
-      z-index: 50;
       transition: 0.2s;
 
       &--active {

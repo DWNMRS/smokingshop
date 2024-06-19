@@ -1,8 +1,8 @@
 <template>
   <header class="header">
-    <a class="header__logo" href="#">
-      <img src="/images/logo.jpg">
-    </a>
+    <NuxtLink  to="/">
+      <img src="/images/logo.png">
+    </NuxtLink>
     <div class="header__nav">
       <NuxtLink v-for="(page, index) in pages" :key="index"
         :class="['header__nav-item', { 'header__nav-item--active': page.selected === true }]" :to="page.path"
