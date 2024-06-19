@@ -1,4 +1,8 @@
 export default defineNuxtConfig({
+  app: {
+    baseURL: '/smokingshop/',
+    buildAssetsDir: 'assets',
+  },
   devtools: { enabled: true },
   primevue: {
     options: {

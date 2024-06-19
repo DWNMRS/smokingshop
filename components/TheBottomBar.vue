@@ -2,7 +2,7 @@
   <div class="bottom-bar">
     <div class="container">
       <NuxtLink to="/">
-        <img src="/images/logo.png">
+        <img src="/assets/images/logo.png">
       </NuxtLink>
       <a class="bottom-bar__link" href="tel:+7-900-000-99-99">
         <IconPhone class="bottom-bar__link-icon" />+7 900 000 99 99

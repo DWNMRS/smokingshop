@@ -1,7 +1,7 @@
 <template>
   <header class="header">
     <NuxtLink  to="/">
-      <img src="/images/logo.png">
+      <img src="/assets/images/logo.png">
     </NuxtLink>
     <div class="header__nav">
       <NuxtLink v-for="(page, index) in pages" :key="index"

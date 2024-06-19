@@ -23,21 +23,21 @@ const slides = [
     subtitle: 'ИНТЕРНЕТ-МАГАЗИН КАЛЬЯНОВ И АКСЕССУАРОВ',
     title: 'SMOKING SHOP',
     description: 'We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!',
-    path: "../images/slide.png",
+    path: "images/slide.png",
     alt: "slide1"
   },
   {
     subtitle: 'ИНТЕРНЕТ-МАГАЗИН КАЛЬЯНОВ И АКСЕССУАРОВ',
     title: 'SMOKING SHOP',
     description: 'We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!',
-    path: "../images/slide.png",
+    path: "images/slide.png",
     alt: "slide2"
   },
   {
     subtitle: 'ИНТЕРНЕТ-МАГАЗИН КАЛЬЯНОВ И АКСЕССУАРОВ',
     title: 'SMOKING SHOP',
     description: 'We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!',
-    path: "../images/slide.png",
+    path: "images/slide.png",
     alt: "slide2"
   }
 ]

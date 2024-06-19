@@ -39,7 +39,7 @@ const products = ref([
     new: false,
     name: 'Alpha Hookah Beat Splash Doc (Колба Clear)',
     price: 1190,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ const products = ref([
     new: true,
     name: 'Alpha Hookah Beat Splash Doc (Колба Gray)',
     price: 1690,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 3,
@@ -56,7 +56,7 @@ const products = ref([
     name: 'Alpha Hookah Beat Splash Dopey (Колба Clear)',
     price: 1990,
     oldPrice: 2290,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 4,
@@ -64,7 +64,7 @@ const products = ref([
     new: false,
     name: 'Alpha Hookah Beat Splash Doc (Колба Clear)',
     price: 1190,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 5,
@@ -72,7 +72,7 @@ const products = ref([
     new: true,
     name: 'Alpha Hookah Beat Splash Doc (Колба Gray)',
     price: 1690,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 6,
@@ -81,7 +81,7 @@ const products = ref([
     name: 'Alpha Hookah Beat Splash Dopey (Колба Clear)',
     price: 1990,
     oldPrice: 2290,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 7,
@@ -89,7 +89,7 @@ const products = ref([
     new: false,
     name: 'Alpha Hookah Beat Splash Doc (Колба Clear)',
     price: 1190,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 8,
@@ -97,7 +97,7 @@ const products = ref([
     new: true,
     name: 'Alpha Hookah Beat Splash Doc (Колба Gray)',
     price: 1690,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
   {
     id: 9,
@@ -106,7 +106,7 @@ const products = ref([
     name: 'Alpha Hookah Beat Splash Dopey (Колба Clear)',
     price: 1990,
     oldPrice: 2290,
-    image: '../images/product.png'
+    image: 'images/product.png'
   },
 ]);
 

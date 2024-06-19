@@ -20,7 +20,7 @@
 
 const offers = [
   {
-    image: '../images/offer1.png',
+    image: 'images/offer1.png',
     title: 'Наш мерч',
     description: `We are an online plant shop offering a
     wide range of cheap and trendy plants`,
@@ -28,7 +28,7 @@ const offers = [
   },
 
   {
-    image: '../images/offer2.png',
+    image: 'images/offer2.png',
     title: 'Кальянные смеси &Кальяны',
     description: 'We are an online plant shop offering a\nwide range of cheap and trendy plants',
     link: '/'

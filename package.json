@@ -5,11 +5,14 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run generate",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "nuxt": "^3.12.1",
     "nuxt-swiper": "^1.2.2",
     "vue": "^3.4.27",
